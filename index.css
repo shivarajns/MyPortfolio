@@ -15,7 +15,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position:fixed;
 }
 
 .navleft {
@@ -155,4 +155,55 @@ a {
     }
 
 
+}
+
+.container-one{
+    width: 100%;
+    height: calc(100vh - 80px);
+    /* background-color: red; */
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cnt-one-left-h1{
+    height:auto;
+    padding: 10px;
+    text-align: center;
+}
+.cnt-one-left-h1 .name {
+    transform: scale(1.8);
+    margin-top: 5px;
+}
+.cnt-one-right{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-bag1{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-bag2{
+    width: 280px;
+    height: 280px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(1rem);
+    z-index: -1;
+}
+.heropic{
+    width: 120%;
+    height: 120%;
 }
